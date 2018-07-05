@@ -20,7 +20,7 @@ public class Email {
 		  boolean sessionDebug=false;
 	  Properties prop=new Properties();
 	  
-	  prop.put("mail.smtp.starttls.enable","true");
+	  prop.put("mail.smtp.starttls.enable","true");//hai
 	  prop.put("mail.smtp.host",host);
 	  prop.put("mail.smtp.port","587");
 	  prop.put("mail.smtp.auth","true");
